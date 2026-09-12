@@ -1,5 +1,5 @@
 {
-  "name": "riwi_restaurant",
+  "name": "initial-setting-nest",
   "version": "0.0.1",
   "description": "",
   "author": "",
@@ -23,11 +23,16 @@
   },
   "dependencies": {
     "@nestjs/common": "^12.0.1",
+    "@nestjs/config": "^12.0.0",
     "@nestjs/core": "^12.0.1",
     "@nestjs/observe": "^0.1.8",
     "@nestjs/platform-express": "^12.0.1",
+    "@nestjs/swagger": "^12.0.1",
+    "@prisma/client": "^7.10.0",
+    "prisma": "^8.0.0-rc.13",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "zod": "^4.6.2"
   },
   "devDependencies": {
     "@nestjs/cli": "^12.0.0",
